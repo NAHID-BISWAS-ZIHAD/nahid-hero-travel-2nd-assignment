@@ -250,13 +250,87 @@ main {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.card-title{
+
+.card-title {
     color: #131318;
     font-weight: 800;
 }
-.card-description{
+
+.card-description {
     color: #5A5A5D;
 }
+
+/* news letter section start */
+
+.news-letter-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news-letter-content {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news-letter-content .contact input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.news-letter-img {
+    width: 100%;
+}
+
+.news-letter-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    object-fit: cover;
+}
+
+.btn-subscribe {
+    padding: 14px;
+    width: 100%;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.news-letter-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.news-letter-description {
+    color: #5A5A5D;
+}
+
+.news-letter-img .offer {
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    position: relative;
+    left: 152px;
+    top: -78px;
+    transform: rotate(-20deg);
+    transform-origin: left top;
+    color: #FFF;
+}
+
 /* Media Query start */
 /* Mobile Responsive */
 @media screen and (max-width:600px) {
@@ -355,18 +429,34 @@ main {
     .box-7 {
         grid-column: 1/span 12;
     }
+
     /* choose description card */
-    .choose-description{
+    .choose-description {
         width: 100%;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
-    .card-3{
+
+    .card-3 {
         margin-top: 20px;
         width: 100%;
     }
-    .choose-title{
+
+    .choose-title {
         font-size: 2rem;
+    }
+    .news-letter-container{
+        flex-direction: column;
+    }
+    .news-letter-content{
+        width: 100%;
+    }
+    .news-letter-content .btn-subscribe{
+        width: 100%;
+    }
+    .news-letter-img .offer{
+        left: 80px;
     }
 }
