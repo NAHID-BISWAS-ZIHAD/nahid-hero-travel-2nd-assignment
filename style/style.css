@@ -321,11 +321,8 @@ main {
     border-radius: 16px;
     background: #FF5400;
     text-align: center;
-    width: 250px;
-    padding: 20px;
-    position: relative;
-    left: 152px;
-    top: -78px;
+    width: 200px;
+    padding: 10px;
     transform: rotate(-20deg);
     transform-origin: left top;
     color: #FFF;
