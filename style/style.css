@@ -87,6 +87,7 @@ nav li a {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 20px;
+    align-items: center;
 }
 
 .form-container input,
@@ -102,6 +103,10 @@ select {
 .form-container input::placeholder,
 select {
     color: rgba(19, 19, 24, 0.50);
+}
+.btn-find-now{
+    width: 100%;
+    padding: 1rem;
 }
 
 /* main section start */
