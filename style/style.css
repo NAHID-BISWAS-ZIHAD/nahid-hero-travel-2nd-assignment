@@ -327,6 +327,30 @@ main {
     transform-origin: left top;
     color: #FFF;
 }
+/* footer section start */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    max-width: 1440px;
+    margin: 50px auto 0 auto;
+    padding: 100px 200px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+footer hr{
+    margin: 40px 0;
+}
+.social-icon a{
+    font-size: 3rem;
+    padding: 10px;
+}
 
 /* Media Query start */
 /* Mobile Responsive */
@@ -455,5 +479,12 @@ main {
     }
     .news-letter-img .offer{
         left: 80px;
+    }
+    /* footer responsive */
+    footer{
+        padding: 20px;
+    }
+    .social-icon a{
+        font-size: 2rem;
     }
 }
