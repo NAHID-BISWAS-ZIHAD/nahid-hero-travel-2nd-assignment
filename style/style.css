@@ -291,6 +291,7 @@ main {
 
 .news-letter-img {
     width: 100%;
+    position: relative;
 }
 
 .news-letter-img img {
@@ -326,6 +327,9 @@ main {
     transform: rotate(-20deg);
     transform-origin: left top;
     color: #FFF;
+    position: absolute;
+    right: 2%;
+    bottom: -2%;
 }
 /* footer section start */
 footer{
@@ -476,9 +480,6 @@ footer hr{
     }
     .news-letter-content .btn-subscribe{
         width: 100%;
-    }
-    .news-letter-img .offer{
-        left: 80px;
     }
     /* footer responsive */
     footer{
